@@ -12,8 +12,8 @@ and append the following line to the end of the file
 
 and execute the following commands
 
-`$ sudo apt-get update
+`$ sudo apt-get update`
 
-$ sudo apt-get install indigo
+`$ sudo apt-get install indigo`
 
-$ sudo apt-get install indigo-control-panel`
+`$ sudo apt-get install indigo-control-panel`
