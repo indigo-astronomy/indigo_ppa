@@ -1,0 +1,92 @@
+Package: indigo
+Priority: optional
+Installed-Size: 52
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: amd64
+Version: 2.0-103
+Replaces: libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: fxload, libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-103-amd64.deb
+Size: 36746736
+MD5sum: 98da343c39ba5eae26b06a04f0e95ee8
+SHA1: c4638a26659f86f263a94093fc76d0b842f471a5
+SHA256: cca0a7afd440bf07db772ec79ba950d5fcf9a9f8e819af3e287035fda7f751a0
+SHA512: e70be0bae2aea6298ce989c301172b43bf0aae6f339ad17c21afce00633663648fdf4245152313d8c3dc2379223170ce023cbad5e63b512616c3d0f06d82f30d
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
+Installed-Size: 52
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: amd64
+Version: 2.0-102
+Replaces: libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: fxload, libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-102-amd64.deb
+Size: 36586246
+MD5sum: 0db5f9c75bb6ced33e74e5507d9de8d2
+SHA1: d8491d33d8a366f16882d84759e9c8f9557bc2c8
+SHA256: fa1d433139b39ee93c20be7bcb7b994601494e1669f22402609f3f4dd424e08a
+SHA512: 8292d99d604de1db7634281c24bf03888568f112983538f52d951b5a60a72e6b44a77779b55c3af073422fd5094d296cb5303e15aeb969f0c21df93b62b1740d
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
+Installed-Size: 52
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: amd64
+Version: 2.0-101
+Replaces: libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: fxload, libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-101-amd64.deb
+Size: 36489254
+MD5sum: 6b63175878a418954aab5da14eae4fb4
+SHA1: c1453ddf660923afa002dd38908546d8a2279d16
+SHA256: dd8e6fce1fd475e7317cfe4aeebd043a4775c739ad0b8b6bc578b1a0ff649d69
+SHA512: e3130a04faecf2a02cc91d6d6f8a13087a6c6235d19e11e6b5d5b5a05ee5e1520506a2dd586f48e574a43e36bd9fdf4219c4e2ce95bb8a163cd87a67399fd8bc
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 930
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: amd64
+Version: 0.5-1
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), indigo (>= 2.0-95)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.5-1_amd64.deb
+Size: 609362
+MD5sum: bf100f115aff9646e4e696ed9e511fce
+SHA1: 4d4a9b6f97545e53c744de505f4acbc4815cf139
+SHA256: 05dd94ba697d6da970da3829c6607f8515289f94c1cfa159483de7a8176a6251
+SHA512: 1fb3ed0d176b9d37b0a2fa316d99cc156a337c1452aba3f890ecece4021edf02e8742d58cd86243032d8805e3fd22316b5cc564124345febb95d906dead159d5
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 930
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: amd64
+Version: 0.4-2
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), indigo (>= 2.0-95)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.4-2_amd64.deb
+Size: 608644
+MD5sum: 446c4de2032088f94e6e16932fc7caea
+SHA1: 21afae12632093279fd4888f66daa01bc010a417
+SHA256: ed25621876fc29dfad32e68e4830e8991294bc6dc00f06ddb137a66fb420a471
+SHA512: fd1320927c48cb7bc5894eebfedc7913cbdff97c7d1fe74aaf1ebdc2be335e338e2c487b323d0764cd29ad2583700873e5b3f949b9fd200a6997c7005805c377
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
