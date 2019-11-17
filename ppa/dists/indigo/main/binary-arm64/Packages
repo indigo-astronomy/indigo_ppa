@@ -58,6 +58,25 @@ Section: science
 Installed-Size: 947
 Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
 Architecture: arm64
+Version: 0.5-2
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), indigo (>= 2.0-95)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.5-2_arm64.deb
+Size: 600844
+MD5sum: 535b5e7bfed6cbc0c2270fe0278e30b9
+SHA1: 121e3a285a797728c4dddf1e70729ea2682a3837
+SHA256: 19cf5d01e293ca7c338b2ed263df53620d30a046544eb06f5a8004d908547580
+SHA512: 562456fa04b5f320ff0645c533900672fef3ee4ab2e7fcb349057166c6c0811e0861f0992c49c8ef04c42a3e521a77ff854a5bf1e9e2efb422e2c0ae25edf60c
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 947
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: arm64
 Version: 0.5-1
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), indigo (>= 2.0-95)
 Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.5-1_arm64.deb
