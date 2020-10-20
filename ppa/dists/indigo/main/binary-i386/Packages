@@ -495,3 +495,18 @@ Description: INDIGO Control Panel
  and modifying INDIGO properties.
 Homepage: https://www.indigo-astronomy.org
 
+Package: indigo-deadlock-detector
+Priority: optional
+Installed-Size: 40
+Maintainer: INDIGO Community
+Architecture: all
+Version: 0.1-1
+Depends: gdb
+Filename: pool/main/i/indigo-deadlock-detector/indigo-deadlock-detector-0.1-1-all.deb
+Size: 2404
+MD5sum: a20c0be7797ab2f2c35637ee1aadf5d7
+SHA1: 885764335f70bda94e1a747d703409f7fa82f31d
+SHA256: 0dc95cea4a96441202806a3a32d28c5b904628b08085119e019536e9331a2bd3
+SHA512: a208f3e8527356c05cff774f3699d220a25beb552b67f3e6c5b1f4fcf25db47db551a202a30665a43b88abf6487b331369e7a548b39b4aaad82454224635cae9
+Description: Indigo deadlock detector
+
