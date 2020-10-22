@@ -500,6 +500,21 @@ Priority: optional
 Installed-Size: 40
 Maintainer: INDIGO Community
 Architecture: all
+Version: 0.3-1
+Depends: gdb
+Filename: pool/main/i/indigo-deadlock-detector/indigo-deadlock-detector-0.3-1-all.deb
+Size: 3060
+MD5sum: 8afaa99d585f00fe871343618f851bc1
+SHA1: 26a43da7af8a40efe58d7c0a7a11a460ac577ec5
+SHA256: 2ba1d5a09200876cf19153244093db295db8e6c6fc9a2b93890c8bf458662fec
+SHA512: 5b4545b0e150b9be935e9ec2bbb06d368d64e8aab842025a34fee9f10436d0282ffa5486905c3777a82af72ff33a8e815bf2ccb48025cd11aa5a2b692669b2e4
+Description: INDIGO Deadlock Detector
+
+Package: indigo-deadlock-detector
+Priority: optional
+Installed-Size: 40
+Maintainer: INDIGO Community
+Architecture: all
 Version: 0.2-1
 Depends: gdb
 Filename: pool/main/i/indigo-deadlock-detector/indigo-deadlock-detector-0.2-1-all.deb
