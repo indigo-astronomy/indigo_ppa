@@ -3,6 +3,24 @@ Priority: optional
 Installed-Size: 52
 Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
 Architecture: armhf
+Version: 2.0-130
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-130-armhf.deb
+Size: 39753576
+MD5sum: 21f4df582200bc47edc42c06e3e659fa
+SHA1: d65810ebf798b5a7f7bf25e626a5f49255550257
+SHA256: 84a260dcfea8b8a06fde4acda4b3b75a4f29e97a030d95a65e33a7f12705899d
+SHA512: 01d6a625d7c1ceb509d5ae4a200f833e5f8405cb757e22fa2087674c1e19a0aa51fddaa0aed4114b293df38ffa7ef82ef453c59d6a8dd19fbee67953f08f3681
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
+Installed-Size: 52
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: armhf
 Version: 2.0-128
 Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
 Depends: libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
