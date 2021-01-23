@@ -412,6 +412,22 @@ Description: INDIGO Framework and drivers
  INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
 Homepage: http://www.indigo-astronomy.org
 
+Package: indigo-astrometry
+Priority: optional
+Installed-Size: 14696
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: arm64
+Version: 0.85
+Filename: pool/main/i/indigo-astrometry/indigo-astrometry-0.85-arm64.deb
+Size: 1119020
+MD5sum: 3b5b82acaa241e432ac24bf6fcbfb58a
+SHA1: f45f0128a753e2650dbb550af23f27c3859b2a5e
+SHA256: 2aa9b4aa1a0468719d5d6751adf4a02af83e78f995636bc8325f5f7b00f15a98
+SHA512: e4d3ceeac059a4f0e9a12b1dd5b964c41c6d0067fef82082a04efc0f34424654f806afdab60c70834e0430f915582b94522d6fe20da684f737a323bec235fed5
+Description: Astrometry.net for INDIGO
+ Automatic recognition of astronomical images; or standards-compliant astrometric metadata from data.
+Homepage: http://www.indigo-astronomy.org
+
 Package: indigo-control-panel
 Priority: optional
 Section: science
