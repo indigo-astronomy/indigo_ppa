@@ -504,6 +504,25 @@ Section: science
 Installed-Size: 765
 Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
 Architecture: armhf
+Version: 0.9-4
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libgcc1 (>= 1:3.5), libgles2, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-138)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.9-4_armhf.deb
+Size: 570652
+MD5sum: a8cdbe132ffceeb887a0a5872e83dafd
+SHA1: 127402462f5669709e27133207b61d1bfe1411e2
+SHA256: 573e714ba8d482bdb52cd1d1c63751761bf7ede1552df044d1b28a2d9d8881e1
+SHA512: 3c1e9d81d2dc424796322319f0af5d231cc2a625d2f66e989125d914fc44311054695f2e2c1f27814a2fe79ed0a6b2081ccafbc4c805401f8d2105f15e210c94
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 765
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: armhf
 Version: 0.9-3
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libgcc1 (>= 1:3.5), libgles2, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-138)
 Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.9-3_armhf.deb
