@@ -976,3 +976,22 @@ SHA256: 0dc95cea4a96441202806a3a32d28c5b904628b08085119e019536e9331a2bd3
 SHA512: a208f3e8527356c05cff774f3699d220a25beb552b67f3e6c5b1f4fcf25db47db551a202a30665a43b88abf6487b331369e7a548b39b4aaad82454224635cae9
 Description: Indigo deadlock detector
 
+Package: indigosky-desktop
+Priority: optional
+Section: science
+Installed-Size: 15967
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: all
+Version: 0.3
+Depends: xfce4, xfce4-terminal, mousepad, lightdm, xinit, xrdp, materia-gtk-theme, indigo-control-panel, ain-imager
+Filename: pool/main/i/indigosky-desktop/indigosky-desktop_0.3_all.deb
+Size: 16224172
+MD5sum: d748df19c596d4fff40561ec97982ab2
+SHA1: f158260569f5d96513cacdf5d44b663c39fc3d04
+SHA256: 48c2a9dfc45f35281dba2a1cb74bbd02cf9238c0c0d9c3a3775df3df0ba94356
+SHA512: 16d5d262ab244972703af121ac862d5c69b8c34a7096071664e5a2a179130eb2148d47321757f59094d8a769dd99eaa2851793ee6c122373835f3bdc6b7e5358
+Description: IndigoSky Desktop environment
+ IndigoSky is a Linux distribution for astro photography based on indigo framework.
+ This package installs a light weight graphical user environment and remote desktop service on top of the standard IndigoSky Distribution.
+Homepage: https://www.indigo-astronomy.org
+
