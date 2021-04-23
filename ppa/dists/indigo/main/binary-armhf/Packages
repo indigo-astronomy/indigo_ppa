@@ -998,6 +998,25 @@ Section: science
 Installed-Size: 15976
 Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
 Architecture: all
+Version: 0.5
+Depends: xfce4, xfce4-terminal, tigervnc-standalone-server, mousepad, xinit, materia-gtk-theme, galculator, bc, indigo-control-panel, ain-imager
+Filename: pool/main/i/indigosky-desktop/indigosky-desktop_0.5_all.deb
+Size: 16225024
+MD5sum: 24c45e4c80283c542d27f5372e77c3b4
+SHA1: 19315e96691dc08a5b8f0c5ef5ea26f1a2186702
+SHA256: 29a87e3104c403e7f6e9130ef4510cf4ad31f957e551aaa6124a4e02e5893dec
+SHA512: 584bfd278e31a94e71afa31651c2983e922b123ba95fda8ce1726beba3c2eca327fc00883be8de4bbc5edfc10fb88d9fec435345dee9b2d97fc136ef78e43de6
+Description: IndigoSky Desktop environment
+ IndigoSky is a Linux distribution for astro photography based on indigo framework.
+ This package installs a light weight graphical user environment and remote desktop service on top of the standard IndigoSky Distribution.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigosky-desktop
+Priority: optional
+Section: science
+Installed-Size: 15976
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: all
 Version: 0.4
 Depends: xfce4, xfce4-terminal, tigervnc-standalone-server, mousepad, xinit, materia-gtk-theme, indigo-control-panel, ain-imager
 Filename: pool/main/i/indigosky-desktop/indigosky-desktop_0.4_all.deb
