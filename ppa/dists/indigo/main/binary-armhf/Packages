@@ -1,6 +1,24 @@
 Package: ain-imager
 Priority: optional
 Section: science
+Installed-Size: 2362
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: armhf
+Version: 0.4-0
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libgcc1 (>= 1:3.5), libgles2, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-128)
+Filename: pool/main/a/ain-imager/ain-imager_0.4-0_armhf.deb
+Size: 870968
+MD5sum: 8934a7da6aae4af7834ed2849ae068f3
+SHA1: b597f5f5f5d63a21ca8990e204dcb69504b2eadd
+SHA256: 11012b63b2650081ecaa206803b5ab28df105e82d7ba6c8b9d77aad7def3075b
+SHA512: 0efa590ca9022f1953ad74358e3ab42d83acf66df456fb4686c013c384eb5119e6a0b26c898b15650ae75a9a76310d22753963dd55e74f7908d5bd576b2a7471
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
 Installed-Size: 1644
 Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
 Architecture: armhf
@@ -1045,6 +1063,25 @@ SHA1: 885764335f70bda94e1a747d703409f7fa82f31d
 SHA256: 0dc95cea4a96441202806a3a32d28c5b904628b08085119e019536e9331a2bd3
 SHA512: a208f3e8527356c05cff774f3699d220a25beb552b67f3e6c5b1f4fcf25db47db551a202a30665a43b88abf6487b331369e7a548b39b4aaad82454224635cae9
 Description: Indigo deadlock detector
+
+Package: indigosky-desktop
+Priority: optional
+Section: science
+Installed-Size: 15981
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: all
+Version: 0.7
+Depends: xfce4, xfce4-terminal, tigervnc-standalone-server, mousepad, xinit, materia-gtk-theme, galculator, bc, indigo-control-panel, ain-imager
+Filename: pool/main/i/indigosky-desktop/indigosky-desktop_0.7_all.deb
+Size: 16226168
+MD5sum: dbb3bbd03f0ae8c8faba191993d0b424
+SHA1: 4f062a6b907995fb2151438a0ac5d225632fd123
+SHA256: 7535d85a76fd50ec4cb0cf67d56a888b673410dc39eded6201628332edc0850c
+SHA512: 73b3e0843210c8f3fd0f66675e54dc4bd24ccfcb41569f06917072da4b5a3ca6ee78715d8357830011f34f109bf96cb04a6784f9254fce030dd9eb924374d7fb
+Description: IndigoSky Desktop environment
+ IndigoSky is a Linux distribution for astro photography based on indigo framework.
+ This package installs a light weight graphical user environment and remote desktop service on top of the standard IndigoSky Distribution.
+Homepage: https://www.indigo-astronomy.org
 
 Package: indigosky-desktop
 Priority: optional
