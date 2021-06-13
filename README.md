@@ -17,3 +17,7 @@ and execute the following commands
 `$ sudo apt-get install indigo`
 
 `$ sudo apt-get install indigo-control-panel`
+
+`$ sudo apt-get install ain-imager`
+
+`$ sudo apt-get install indigo-deadlock-detector`
