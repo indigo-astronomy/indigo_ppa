@@ -1075,6 +1075,21 @@ Homepage: https://www.indigo-astronomy.org
 
 Package: indigo-deadlock-detector
 Priority: optional
+Installed-Size: 36
+Maintainer: INDIGO Community
+Architecture: all
+Version: 0.4-1
+Depends: gdb
+Filename: pool/main/i/indigo-deadlock-detector/indigo-deadlock-detector-0.4-1-all.deb
+Size: 3036
+MD5sum: 46c9e47cbf2e742a312e5cd9b78a908a
+SHA1: cb4f7e4f267f2ca2bd53f12d0ea4fe19796034c3
+SHA256: bf5785f04b8a55c5c44530061a4e607c43313782b46edd735b332d15104f4881
+SHA512: 58f2691a477fa8f12f574f75cf273c5214f4ed373bb3f800c00d7c43c478bd03b554bfe52a5bf2a75a098293bd3dd60fea7e3f553543d11a6175699bdffec883
+Description: INDIGO Deadlock Detector
+
+Package: indigo-deadlock-detector
+Priority: optional
 Installed-Size: 40
 Maintainer: INDIGO Community
 Architecture: all
