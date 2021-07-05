@@ -1,6 +1,24 @@
 Package: ain-imager
 Priority: optional
 Section: science
+Installed-Size: 5559
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: i386
+Version: 0.5-2
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libgcc1 (>= 1:4.2), libgl1-mesa-glx | libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-128)
+Filename: pool/main/a/ain-imager/ain-imager_0.5-2_i386.deb
+Size: 1980674
+MD5sum: 2fe5e3435ad8981a232a18992c109960
+SHA1: 0de88468285707b1eb1e7caced6d91e92a457b76
+SHA256: 07de8f21270963aed9f563556c205c4549f1e424520eb697f39fcf274b7fc120
+SHA512: b81123cc5b370369342dce8110159da224f7234582be4ca464eb4683515a0be6eabd88f4f9126f8d221023e3e0f68ff9b35c9db4ab8994288a920ec8d2d6c73d
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
 Installed-Size: 5547
 Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
 Architecture: i386
