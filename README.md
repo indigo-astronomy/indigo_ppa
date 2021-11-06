@@ -1,4 +1,4 @@
-# INDIGO PPA for debian systems 
+# INDIGO PPA for Debian based systems 
 
 Binary distribution of INDIGO Infrastructure, INDIGO Control Panel and Ain Imager can be installed on Linux either automatically by apt-get or manually by dpkg.
 
