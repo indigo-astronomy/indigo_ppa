@@ -989,6 +989,25 @@ Homepage: http://www.indigo-astronomy.org
 Package: indigo-control-panel
 Priority: optional
 Section: science
+Installed-Size: 900
+Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
+Architecture: i386
+Version: 0.10-1
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.11), libgcc1 (>= 1:4.2), libgl1-mesa-glx | libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-138)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.10-1_i386.deb
+Size: 622596
+MD5sum: 481845e33d149bf70af54bbc817b1a4d
+SHA1: 6e1335be8114ba5c1c3a03b853aa5ea3d5d1d8f0
+SHA256: 8224decee693070d0d4de18441964becde103d73db0b034f31b6fa072db8ec99
+SHA512: dfbbd59d52d0afee86122b1df7dea7257d0ae01b4325e727c93a857185131e2e4f22e8f319c847e8427a7e01079190f69e3e1d654f50078f4493923c1b5d5b4c
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
 Installed-Size: 896
 Maintainer: Rumen Bogdanovski <rumen@skyarchive.org>
 Architecture: i386
