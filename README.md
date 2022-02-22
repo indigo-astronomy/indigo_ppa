@@ -6,7 +6,7 @@ To setup automatic installation and subsequent updates, you need to add our repo
 
 `$ sudo vi /etc/apt/sources.list`
 
-and append the following line to the end of the file
+and append the following line to the end of the file:
 
 `deb [trusted=yes] https://indigo-astronomy.github.io/indigo_ppa/ppa indigo main`
 
