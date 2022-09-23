@@ -1,6 +1,24 @@
 Package: ain-imager
 Priority: optional
 Section: science
+Installed-Size: 9071
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: i386
+Version: 0.15-0
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.27), libgcc1 (>= 1:4.2), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.4.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-190)
+Filename: pool/main/a/ain-imager/ain-imager_0.15-0_i386.deb
+Size: 2919244
+MD5sum: f93590238592d963e9778984af77d487
+SHA1: db53cc2e84c7037938ab0202f90fcd7c55252c47
+SHA256: 2110b88e05960ff06e1fc9ed391f0b7c7d22ebd9606dafdb07548739e35f3696
+SHA512: 594c6d267f7bd39b417d0a44d817d8299507396fe1bb0064edd82727c0e9e6a8d9fe3e9b0f14df0b3dae5a2abb972cca7031b101ce0aaa8d5310ff62b0d22a3d
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
 Installed-Size: 9035
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: i386
@@ -751,6 +769,25 @@ SHA512: 49e1297f99df9250632d47652c249b96abf9bb0d9a7cdc9afcf4d9668e0e3ab52cfe5665
 Description: Astrometry.net for INDIGO
  Automatic recognition of astronomical images; or standards-compliant astrometric metadata from data.
 Homepage: http://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 928
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: i386
+Version: 0.11-0
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.11), libgcc1 (>= 1:4.2), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-190)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.11-0_i386.deb
+Size: 626740
+MD5sum: 391bd28c7492a8a47083062f31befd7a
+SHA1: fe3b6f7cb2065bd72214f962bb60df77ae104684
+SHA256: 52b3379e156dfb9fcab1d59dabae0971acf9c28c11dd822b4bbe70d173d2c9a2
+SHA512: 070a3a804937fc0119e7dbdbdc12e849fa215788076d4090419abc1a97e78d772a53e1a51de7ee7312eecce9207be940321806d141b0ff00983201345162136a
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
 
 Package: indigo-control-panel
 Priority: optional
