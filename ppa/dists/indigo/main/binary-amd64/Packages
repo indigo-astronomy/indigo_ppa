@@ -561,6 +561,24 @@ Priority: optional
 Installed-Size: 1095204
 Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
 Architecture: amd64
+Version: 2.0-194
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: indigo-astrometry | astrometry.net, libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-194-amd64.deb
+Size: 43755712
+MD5sum: 25dc9883848656fb53f8d7429f5eac4e
+SHA1: f73f1ac97fa2d0670724bb72e648053894d3617e
+SHA256: 6cf41bf8834856f3bb00f23e98224ed82067e966c7f67af92d301ffacdce592e
+SHA512: 5f242efa2297ce974a2386aedf1e82ef276eaca04faf180ef0cc819cea0ba8a1d36c7092dc391cfd43dcaeb00e217083bf4bcf5836c0a8a0772af79e84ab54fe
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
+Installed-Size: 1095204
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: amd64
 Version: 2.0-192
 Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
 Depends: indigo-astrometry | astrometry.net, libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
