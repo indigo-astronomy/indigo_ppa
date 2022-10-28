@@ -4,6 +4,24 @@ Section: science
 Installed-Size: 9914
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: arm64
+Version: 0.16-1
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.27), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.4.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-190)
+Filename: pool/main/a/ain-imager/ain-imager_0.16-1_arm64.deb
+Size: 2837632
+MD5sum: d5e645c5154d2f2b25b9a4334cb3a575
+SHA1: efb9e2b3a8da73bcf456f6703f736456e271b1e2
+SHA256: ffff824f3cb1924a048e001fe0d95a0c82140845638a6f131d74474d2189fa72
+SHA512: 0b1df0098dfcdae42c9fd3937d0b2cd175f444ab3634c5c3e4c3505de624b3d40fa2d3e4c495357724c4b2e73d3b2397e6bbd9b9a7a597481056cc681d0d024e
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
+Installed-Size: 9914
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: arm64
 Version: 0.16-0
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.27), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.4.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-190)
 Filename: pool/main/a/ain-imager/ain-imager_0.16-0_arm64.deb
@@ -1356,6 +1374,25 @@ SHA1: 885764335f70bda94e1a747d703409f7fa82f31d
 SHA256: 0dc95cea4a96441202806a3a32d28c5b904628b08085119e019536e9331a2bd3
 SHA512: a208f3e8527356c05cff774f3699d220a25beb552b67f3e6c5b1f4fcf25db47db551a202a30665a43b88abf6487b331369e7a548b39b4aaad82454224635cae9
 Description: Indigo deadlock detector
+
+Package: indigosky-desktop
+Priority: optional
+Section: science
+Installed-Size: 25915
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: all
+Version: 0.11
+Depends: xfce4, xfce4-terminal, dbus-x11, tigervnc-standalone-server, mousepad, xinit, materia-gtk-theme, galculator, bc, indigo-control-panel, ain-imager
+Filename: pool/main/i/indigosky-desktop/indigosky-desktop_0.11_all.deb
+Size: 26158372
+MD5sum: fd751f9ff9458a015d8ed63706ef0172
+SHA1: c7b2c7f4b8be85f5144100d03c022637dcb02a4b
+SHA256: 65fc7bb760342dea929713b70892e4881ab6d778323da024bdae01caafdd7dd0
+SHA512: d6fcffcae2c7ef3419175443d64919a4228a81c3c9849a0ac0ad8adedb4e2664efa84cf283e3cc50d98a46f6d1c0537bac63fece8f5c29d23f49c6484fe207a4
+Description: IndigoSky Desktop environment
+ IndigoSky is a Linux distribution for astro photography based on indigo framework.
+ This package installs a light weight graphical user environment and remote desktop service on top of the standard IndigoSky Distribution.
+Homepage: https://www.indigo-astronomy.org
 
 Package: indigosky-desktop
 Priority: optional
