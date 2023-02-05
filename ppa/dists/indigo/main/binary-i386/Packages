@@ -524,6 +524,25 @@ Section: science
 Installed-Size: 928
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: i386
+Version: 0.11-2
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.11), libgcc1 (>= 1:4.2), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-190)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.11-2_i386.deb
+Size: 626648
+MD5sum: 65dc484984b7dbcd7bc0d37b4376ec56
+SHA1: a395dc5d121c6569b0d46c8115f9db8c9576c9a1
+SHA256: 6fb223cbd0ea9a59ce4ecdcca51154eddcef8ffc96cb67a1b1b7b7b7219bb26b
+SHA512: cf84a3cb2e51a5f91d828d523fe06a299aacaa06b2fd13092976f306974bd3a0963d9994dc61a132e237be161bddc1506dc3f283da58a9540efdfda2f485389e
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 928
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: i386
 Version: 0.11-1
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.11), libgcc1 (>= 1:4.2), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-190)
 Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.11-1_i386.deb
