@@ -668,6 +668,25 @@ Section: science
 Installed-Size: 848
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: i386
+Version: 0.13-1
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-229)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.13-1_i386.deb
+Size: 606568
+MD5sum: f2e247f928cc7ba927afb73e85380ba3
+SHA1: 04d204d6a2f185a88d63d409ba88c3903adca49b
+SHA256: 56666cf3b122540ca068612b7bb3a48225a25fbc0e0b568a10e33e4b4ebf1c2e
+SHA512: 0ebd9020fd7cbeef2fc0ad84452b3bb46891bf1de6890d53c299db31429313ee87dd76599a733c3cfd288fc2784ba7acbdb1e99f97f367c779556c170782f341
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 848
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: i386
 Version: 0.12-1
 Depends: libc6 (>= 2.11), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
 Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.12-1_i386.deb

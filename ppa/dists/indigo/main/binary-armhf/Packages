@@ -684,6 +684,25 @@ Section: science
 Installed-Size: 744
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: armhf
+Version: 0.13-1
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:3.5), libgles2, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-229)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.13-1_armhf.deb
+Size: 585060
+MD5sum: d881a1d743b45d581e50163e15015f09
+SHA1: bf0514f50f5d2c216b1b426599b7fca9b0e4e171
+SHA256: 0d5d0ef435a05829086e1301c80e8f296b04cca6cf7d29e3a9ccdab1c2ed2a36
+SHA512: e6abf281d691e83522493c520ce2873992d18029aaf4631e3b9ba7b718d9343f8a35426bb4ffb3aa5be27799d0fbf43916b7e25745905ae11566ba7cf18309cd
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 744
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: armhf
 Version: 0.12-1
 Depends: libc6 (>= 2.11), libgcc1 (>= 1:3.5), libgles2, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
 Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0.12-1_armhf.deb
