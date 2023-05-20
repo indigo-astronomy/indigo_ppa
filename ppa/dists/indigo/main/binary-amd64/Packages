@@ -617,6 +617,25 @@ Description: INDIGO Control Panel
  and modifying INDIGO properties.
 Homepage: https://www.indigo-astronomy.org
 
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 870
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: amd64
+Version: 0-13-2
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), qt5-image-formats-plugins, indigo (>= 2.0-229)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_0-13-2_amd64.deb
+Size: 602660
+MD5sum: 7d9b1acba25d6202019cabcf634e6c94
+SHA1: 1155a9b5def2685cc6b14bdff76b0a4630395236
+SHA256: 257ac5609ac5546246fa28aa18b9c8daeb962b421b331c74d7b92a2cab31bba8
+SHA512: 7a78f642692530f2e4e261deb1ed983feff55e86d1199ba61dadcdc3012fb8fe3b8a9a3519f2b6f03e48395a3374bfcbb379cec1dbcbee0ca9d727c05514598b
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
 Package: indigo-deadlock-detector
 Priority: optional
 Installed-Size: 36
