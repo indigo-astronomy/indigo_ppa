@@ -1,6 +1,24 @@
 Package: ain-imager
 Priority: optional
 Section: science
+Installed-Size: 10258
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: arm64
+Version: 1.5-1
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
+Filename: pool/main/a/ain-imager/ain-imager_1.5-1_arm64.deb
+Size: 2939588
+MD5sum: b53809944124f67251cf0c9ee0462e9f
+SHA1: b0654c833278526c061cba4e6462768df50349c2
+SHA256: 15bc9307bba8ec50ef7e3df12538b5ff4b45d845541c8ecc80362da2e6428611
+SHA512: 183f859ca2c63946b0b501f3c8a7146bd77a023015dc06aa905ed5687e0c722834fcc2c674d163ccbbcdc22ff0f407f85eb47279c5e45fe99a3f4954724802aa
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
 Installed-Size: 10262
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: arm64
@@ -303,6 +321,24 @@ SHA512: 31ca1b937ae4920c9942ea90e8998cc44ac44782cc6be66e34ad3c39e375f293354f851e
 Description: Ain INDIGO Imager
  Ain INDIGO Imager is a program for astrophotography based on indigo framework.
 Homepage: https://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
+Installed-Size: 1518704
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: arm64
+Version: 2.0-280
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-280-arm64.deb
+Size: 48170452
+MD5sum: de98438effd2e8a90bed61d5f0fda4d9
+SHA1: ffaf54260a910e06679f38c9a58cff6ca8c24fff
+SHA256: 4d75e4fbd7c845346f2b0a26e5073a87d26b2502f3534719c186b9d0ed263f79
+SHA512: 3a39d54193827387da08b7b647808a47cbc7f20755f7844581d34fe7336a891f5edadc66864d8ed4b3db4e9864f2773c152969eaba185774d0f8b68400842ffd
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
 
 Package: indigo
 Priority: optional

@@ -4,6 +4,24 @@ Section: science
 Installed-Size: 10480
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: amd64
+Version: 1.5-1
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
+Filename: pool/main/a/ain-imager/ain-imager_1.5-1_amd64.deb
+Size: 3050604
+MD5sum: 8d2af1f08d53f72ac3a5fc9fa4c1fe43
+SHA1: 87622b31945b25bbfc26929311c9603224fd6f5e
+SHA256: 89ddd2185893cdd4c910f8af584dffaee61f0bbe158fc9b84d1a9c389548b031
+SHA512: 8b93cc82aca3029fa690e3633ce3ba9d40a9c826da21210d789b4cc9784a1cc8afd09f088f8b35edada2a2ee6bed47ce2a7009ec6506ab336c0649a79299374b
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
+Installed-Size: 10480
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: amd64
 Version: 1.5-0
 Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
 Filename: pool/main/a/ain-imager/ain-imager_1.5-0_amd64.deb
@@ -303,6 +321,24 @@ SHA512: 9418a2f9bedcb1d800d12229f6717833efc451973a076cf7d0a6ca66b3104aa86dc326e5
 Description: Ain INDIGO Imager
  Ain INDIGO Imager is a program for astrophotography based on indigo framework.
 Homepage: https://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
+Installed-Size: 1644784
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: amd64
+Version: 2.0-280
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libgphoto2-6, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-280-amd64.deb
+Size: 68561908
+MD5sum: d0799c1a38b2a8632420ef51d922059d
+SHA1: cc504c123342347ef429ee7334973be856ba9f7d
+SHA256: 0ff244977dd5296d8c628c776ee61f1899fc4b5cb1273c882b5fbb9f1673d6ee
+SHA512: d00e18cf4accffb9303b18af0deaf89f74e8f7c9e27e19e8331ef0cedbba9171c5865fbbaf4d83e563d9230709e23469b72fc10c58f51cbe4295ca32ced7efce
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
 
 Package: indigo
 Priority: optional
