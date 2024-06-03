@@ -486,6 +486,22 @@ Homepage: http://www.indigo-astronomy.org
 
 Package: indigo-astrometry
 Priority: optional
+Installed-Size: 14324
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: arm64
+Version: 0.95
+Filename: pool/main/i/indigo-astrometry/indigo-astrometry-0.95-arm64.deb
+Size: 1133028
+MD5sum: 2927de76dfec9f5164f36b77a0ce6269
+SHA1: bdf9035d5243bb77f19469e2f903d16686f2750f
+SHA256: 3edbfc129b25d62c0faeb59a01d4d009261402a2f3ca13ef7328ac5ce667c490
+SHA512: e25ad93e87e1652990b5c6b1247ff67a4f4c9bc25eb18fe73fa173b2e5ba7245a25ece118fa8a250682d1ed3639b9af330bf58d712a8f160b8a89c7993efa3b8
+Description: Astrometry.net for INDIGO
+ Automatic recognition of astronomical images; or standards-compliant astrometric metadata from data.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo-astrometry
+Priority: optional
 Installed-Size: 14696
 Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
 Architecture: arm64
