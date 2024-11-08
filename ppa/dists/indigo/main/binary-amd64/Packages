@@ -432,6 +432,24 @@ Homepage: https://www.indigo-astronomy.org
 
 Package: indigo
 Priority: optional
+Installed-Size: 1749172
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: amd64
+Version: 2.0-298
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-298-amd64.deb
+Size: 73118260
+MD5sum: e3abde31228a2fa3dc654a8e5b93d800
+SHA1: 9971ce0a7e1b169fecd42eb8220dda34fcd8e341
+SHA256: 13917b636e50028dcb29e730db411b113b7794fb68635951498d49916adb988d
+SHA512: 115e327b62f6b4289a96703cf10d04771e2ae20bdf258560e7e294c8c2d488eb955f98998f4143e5b544aac599843133433985763745224d2973bd3ac106152e
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
 Installed-Size: 1701944
 Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
 Architecture: amd64
