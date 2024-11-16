@@ -4,6 +4,24 @@ Section: science
 Installed-Size: 8216
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: armhf
+Version: 1.8-0
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.5), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
+Filename: pool/main/a/ain-imager/ain-imager_1.8-0_armhf.deb
+Size: 2843000
+MD5sum: bad3936983d92b8d42ac66d1a4c14138
+SHA1: f07c8d66423b59e32b29706565182abd6e29b026
+SHA256: dfd8aa03732afa7d52ad4524de3785a25ef7749736e02819abdb4a2447504277
+SHA512: 4d13ea3682dd441db8a59c39e7e1af670d62f1e168f860961a38636574773cb0d6f905abd0b57178086c1cc7fbeb3050f16136e8407d432823b997552fe162f4
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
+Installed-Size: 8216
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: armhf
 Version: 1.7-0
 Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.5), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
 Filename: pool/main/a/ain-imager/ain-imager_1.7-0_armhf.deb
@@ -429,6 +447,24 @@ SHA512: 039a978645b9a40faae8e1675be46923bd86556a388f5c4d1db93ffa43102ba0f37a48fb
 Description: Ain INDIGO Imager
  Ain INDIGO Imager is a program for astrophotography based on indigo framework.
 Homepage: https://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
+Installed-Size: 1469264
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: armhf
+Version: 2.0-300
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libavahi-compat-libdnssd1
+Filename: pool/main/i/indigo/indigo-2.0-300-armhf.deb
+Size: 46428916
+MD5sum: c55e34011d80a668c97952ceca304ac8
+SHA1: 815ccfd3ddb30a9e2b3cc38af47b6d6bb0592995
+SHA256: 15d98241912f372261816016fb9587cd20907a5a98116064d004fd2b66247420
+SHA512: 4cca1c40c7f1c3140404dcfb4e54ded8c79f2c7c4dcaebda90f7b83a83c2d92d9bc49b72563a74f9abf2635d0d63b4e6b8fc3ad722cfb6df02e570bfc83f9b24
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
 
 Package: indigo
 Priority: optional
