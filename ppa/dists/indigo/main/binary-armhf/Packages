@@ -1,6 +1,24 @@
 Package: ain-imager
 Priority: optional
 Section: science
+Installed-Size: 8444
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: armhf
+Version: 2.3-0
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.5), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
+Filename: pool/main/a/ain-imager/ain-imager_2.3-0_armhf.deb
+Size: 2945628
+MD5sum: 20b0c3ae6eeb83da5f460c92f19e7e03
+SHA1: 497b736e896c112bbe41baa47b6bf84423a00e0c
+SHA256: 7b1fb71526a7e93ec97585a5a1dac685ae3eb0dfaf0f646d480021f114ddc072
+SHA512: 35c13c0d8ed00c0f7778518c4da0196920f04272776d96cea23e08c3d8f90d3ba52e975b039ca1667b405477afb527ee475fc48ce3bcf4b5d47ed901480098a4
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
 Installed-Size: 8424
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: armhf
