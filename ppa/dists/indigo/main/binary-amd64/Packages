@@ -1005,6 +1005,25 @@ Homepage: http://www.indigo-astronomy.org
 Package: indigo-control-panel
 Priority: optional
 Section: science
+Installed-Size: 1128
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: amd64
+Version: 1.0-0
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.1.0) | libqt5gui5-gles (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 6), qt5-image-formats-plugins, indigo (>= 2.0-229)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_1.0-0_amd64.deb
+Size: 691008
+MD5sum: 093f95eda74ed6b2c20daf49990e6cf9
+SHA1: 54ae7c1d5ee09d9e96caf88b3f6b2b8d982821b3
+SHA256: 47e76eea806a7a9bb463735a4758a2ff39816c42afa764810644d69149f8e3ba
+SHA512: 4926f6a6f7ad4e34d27bba8e2cabf5e580e61045132696a09a30f3fcbe8624f9efe934625aab6986e2886defdb87394928d08b075440d9502915789a8beccfcd
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
 Installed-Size: 870
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: amd64
