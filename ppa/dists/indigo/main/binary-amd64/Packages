@@ -1,6 +1,24 @@
 Package: ain-imager
 Priority: optional
 Section: science
+Installed-Size: 19625
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: amd64
+Version: 2.7-2
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo (>= 2.0-226)
+Filename: pool/main/a/ain-imager/ain-imager_2.7-2_amd64.deb
+Size: 6410332
+MD5sum: 3ac3212ed31ca0e3bff19a81daa10ca0
+SHA1: c265cc5dff4d74ab174095111cd31827995ab12b
+SHA256: eae6fc338e043df88c4563ee3f940c362daa4a1bd2311a36f3f9b5b8a951269a
+SHA512: fba26ef8d318a57757ee2961a5eb7f2f879c4a28ab6bf7a8f579f47f92df5c2e947be13551010bfcb832c3c41133c3f21aea8039678a90b228a5ae9f43d4255e
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager
+Priority: optional
+Section: science
 Installed-Size: 11085
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: amd64
@@ -623,6 +641,25 @@ SHA512: 5644ea0cfc42e79a45e6df775d4918e5cbad30a3e1e4eb7437845cb3bc9e1a6534ee8fbd
 Description: Astrometry.net for INDIGO
  Automatic recognition of astronomical images; or standards-compliant astrometric metadata from data.
 Homepage: http://www.indigo-astronomy.org
+
+Package: indigo-control-panel
+Priority: optional
+Section: science
+Installed-Size: 9664
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: amd64
+Version: 1.2-0
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.1.0) | libqt5gui5-gles (>= 5.1.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 6), qt5-image-formats-plugins, indigo (>= 2.0-229)
+Filename: pool/main/i/indigo-control-panel/indigo-control-panel_1.2-0_amd64.deb
+Size: 1875156
+MD5sum: 3fd44846563acd716a4e04569bb06424
+SHA1: 8700aa53bc80f2914ba704cd796cd4b2a390bc75
+SHA256: 3df012ec0e1baf67883fd4a2cbbf87dc0b0baa89fee8fd2b68a389f301339c98
+SHA512: 5832d18c389ccc75283f5a772b7aa7024d1a8747fe65d4d3e70f7ac82e8f471df31d23918b222faabef765703bd656db2ee3c2762f7192a44ddbe644352412b7
+Description: INDIGO Control Panel
+ INDIGO Control Panel is a program for browsing and
+ and modifying INDIGO properties.
+Homepage: https://www.indigo-astronomy.org
 
 Package: indigo-control-panel
 Priority: optional
