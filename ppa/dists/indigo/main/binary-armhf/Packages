@@ -534,6 +534,26 @@ Homepage: https://www.indigo-astronomy.org
 
 Package: indigo
 Priority: optional
+Installed-Size: 1719992
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: armhf
+Version: 2.0-372
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb,indigo3
+Provides: indigo
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libavahi-compat-libdnssd1
+Conflicts: indigo3
+Filename: pool/main/i/indigo/indigo-2.0-372-armhf.deb
+Size: 49795084
+MD5sum: 1b9d4f1d407ac74826bbca4ec00d1f68
+SHA1: 41f69e356ac27fa1902b85c379a3ce10e01e8ef3
+SHA256: d33d7583276716a8758d84b60e1858638d46cee2cb83928646931cd61429804f
+SHA512: 01f250f3f63d34442544bd6347a6ee2f3f925b552629a5ded83316c30939fe3f3f8413f86829dd2eb8d5077712a737f3f1287a360577dbadff0d7f07ba21b095
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo
+Priority: optional
 Installed-Size: 1711336
 Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
 Architecture: armhf
@@ -959,6 +979,26 @@ SHA1: 885764335f70bda94e1a747d703409f7fa82f31d
 SHA256: 0dc95cea4a96441202806a3a32d28c5b904628b08085119e019536e9331a2bd3
 SHA512: a208f3e8527356c05cff774f3699d220a25beb552b67f3e6c5b1f4fcf25db47db551a202a30665a43b88abf6487b331369e7a548b39b4aaad82454224635cae9
 Description: Indigo deadlock detector
+
+Package: indigo3
+Priority: optional
+Installed-Size: 2118936
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: armhf
+Version: 3.0-1~beta2
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb,indigo
+Provides: indigo
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libavahi-compat-libdnssd1
+Conflicts: indigo
+Filename: pool/main/i/indigo3/indigo3-3.0-1~beta2-armhf.deb
+Size: 50346120
+MD5sum: 479b3f273a68a7400531feadddc53f7c
+SHA1: 3e45c76109867bed08bac6e7350fd7f40e11d004
+SHA256: 757d70040cf4d5f983f0bf5e94578325815afb42ce8449fc53dd10b65ab7f63e
+SHA512: bf1a74a0f928fb7a2cce2af7d9471a508882e4959b7046361874464bb339955db15026cebb95eb6db3385e84730771f134dae7386fbdf96eb68eed6cd137c9a8
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
 
 Package: indigo3
 Priority: optional
