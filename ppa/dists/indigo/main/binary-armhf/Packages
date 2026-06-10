@@ -1125,6 +1125,27 @@ Homepage: http://www.indigo-astronomy.org
 Package: indigosky-desktop
 Priority: optional
 Section: science
+Installed-Size: 25919
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: all
+Version: 0.13
+Replaces: indigosky-desktop-indigo3
+Depends: xfce4, xfce4-terminal, dbus-x11, tigervnc-standalone-server, mousepad, xinit, materia-gtk-theme, galculator, bc, indigo-control-panel, ain-imager
+Conflicts: ain-imager-indigo3, indigo-control-panel-indigo3, indigosky-desktop-indigo3
+Filename: pool/main/i/indigosky-desktop/indigosky-desktop_0.13_all.deb
+Size: 26158976
+MD5sum: d67080a21d31fc2016e1787c0414c3c1
+SHA1: 628c4f8ac42efe2f5918607e5d0860cda260d860
+SHA256: 8126406d1b9e5f60317809ad96edc1eaf7e068b68bfa24a73dd261be12eaf203
+SHA512: c1a9e9a0e7615ecf505c2d8b0e9f615c719a7a9712d24bd372f4954d986f055539c7afa86cd49aecdca6aac114ba2186fb30d24f2ba24ecad24dfc166f6af1be
+Description: IndigoSky Desktop environment
+ IndigoSky is a Linux distribution for astro photography based on indigo framework.
+ This package installs a light weight graphical user environment and remote desktop service on top of the standard IndigoSky Distribution.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigosky-desktop
+Priority: optional
+Section: science
 Installed-Size: 25915
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: all
@@ -1291,5 +1312,28 @@ SHA512: 16d5d262ab244972703af121ac862d5c69b8c34a7096071664e5a2a179130eb2148d4732
 Description: IndigoSky Desktop environment
  IndigoSky is a Linux distribution for astro photography based on indigo framework.
  This package installs a light weight graphical user environment and remote desktop service on top of the standard IndigoSky Distribution.
+Homepage: https://www.indigo-astronomy.org
+
+Package: indigosky-desktop-indigo3
+Priority: optional
+Section: science
+Installed-Size: 25919
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: all
+Source: indigosky-desktop
+Version: 0.13
+Replaces: indigosky-desktop
+Depends: xfce4, xfce4-terminal, dbus-x11, tigervnc-standalone-server, mousepad, xinit, materia-gtk-theme, galculator, bc, indigo-control-panel-indigo3, ain-imager-indigo3
+Conflicts: ain-imager, indigo-control-panel, indigosky-desktop
+Filename: pool/main/i/indigosky-desktop/indigosky-desktop-indigo3_0.13_all.deb
+Size: 26159004
+MD5sum: e8430c04d6c3787cde82478b71f4a6d7
+SHA1: 0448da5f229f6486ddddef08d0b62db6ce722c10
+SHA256: 7a5449b3a957953fdd1e5fee4bebb2ff8681e1e3efadc663e71e51a066dc6eac
+SHA512: 07099ce5a8de00b710c556e811550e6c60bd0d40f42ae226e048245bd33ad45ced6153df886e88621372a455ae2c9ce4433a21f4dd5cbd4dddfdca8376ceac39
+Description: IndigoSky Desktop environment (Indigo3)
+ IndigoSky is a Linux distribution for astro photography based on indigo framework.
+ This package installs a light weight graphical user environment and remote desktop service on top of the standard IndigoSky Distribution.
+ This variant uses the Indigo3 framework packages.
 Homepage: https://www.indigo-astronomy.org
 
