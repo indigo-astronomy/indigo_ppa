@@ -1018,6 +1018,26 @@ Description: Indigo deadlock detector
 
 Package: indigo3
 Priority: optional
+Installed-Size: 2486356
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: amd64
+Version: 3.0-2
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb,indigo
+Provides: indigo
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libavahi-compat-libdnssd1
+Conflicts: indigo
+Filename: pool/main/i/indigo3/indigo3-3.0-2-amd64.deb
+Size: 89833816
+MD5sum: acf77ea0ac937180cde0516ac743992c
+SHA1: be261cf6f13a5491f663cfbb7cf42e585db03725
+SHA256: 0ff67a489cfafc7469daef161c65fa0221cab61b6826821192a9746da94df3d4
+SHA512: b193019b0c1be0967da2ab507a02e43e276d80d4b828f5fa4b1352c94603aa9c3148c7431a8a4e9890d4835d4c5b231dbef995ed5dbb0405c4a83b451ce8bbbb
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo3
+Priority: optional
 Installed-Size: 2485420
 Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
 Architecture: amd64
