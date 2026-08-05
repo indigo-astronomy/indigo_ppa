@@ -1021,6 +1021,26 @@ Priority: optional
 Installed-Size: 2486356
 Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
 Architecture: amd64
+Version: 3.0-3
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb,indigo
+Provides: indigo
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libavahi-compat-libdnssd1
+Conflicts: indigo
+Filename: pool/main/i/indigo3/indigo3-3.0-3-amd64.deb
+Size: 89826880
+MD5sum: 5cd9ccdf3c4fab6030db0414f3e2d4e9
+SHA1: 0fd7e27675aa9bce91e704e36f2b9bb040f93ebe
+SHA256: 2cebb37967260a1e9c90293a1364f38f9a7379a37bbd77da30cac1fd9a89b7dc
+SHA512: 27bd3eb753f3e166d8eea11315a9a9acb00ab23fd153bf349b0972bfbcf3d8e0d6b1a5769ad336096607b7d4915a7bf006b599609d225bdc8b3b348cb767d2dd
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo3
+Priority: optional
+Installed-Size: 2486356
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: amd64
 Version: 3.0-2
 Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb,indigo
 Provides: indigo
