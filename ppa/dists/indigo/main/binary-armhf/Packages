@@ -533,6 +533,26 @@ Homepage: https://www.indigo-astronomy.org
 Package: ain-imager-indigo3
 Priority: optional
 Section: science
+Installed-Size: 22033
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: armhf
+Version: 3.1-0
+Replaces: ain-imager
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 4.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 11), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo3
+Conflicts: ain-imager
+Filename: pool/main/a/ain-imager-indigo3/ain-imager-indigo3_3.1-0_armhf.deb
+Size: 6323064
+MD5sum: 5b9bf679a3eba50327238a8441b4effd
+SHA1: f8f63aa173d77cd70b1b7a7c15380fd188c9331a
+SHA256: 765850ff8340c8cb1c75bd1a1e540f48f0bd24a1a72534d581a5789b08d47489
+SHA512: 9061e0b5a94f532168a38cd9ee18996ffa52d0289555bdcf93f761d9caa624a9166d21bd4cc8a097ecbf23d05ac446994e8341b4032faf7c1dbe574860892576
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager-indigo3
+Priority: optional
+Section: science
 Installed-Size: 22013
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: armhf
@@ -1133,6 +1153,26 @@ SHA1: 885764335f70bda94e1a747d703409f7fa82f31d
 SHA256: 0dc95cea4a96441202806a3a32d28c5b904628b08085119e019536e9331a2bd3
 SHA512: a208f3e8527356c05cff774f3699d220a25beb552b67f3e6c5b1f4fcf25db47db551a202a30665a43b88abf6487b331369e7a548b39b4aaad82454224635cae9
 Description: Indigo deadlock detector
+
+Package: indigo3
+Priority: optional
+Installed-Size: 2324700
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: armhf
+Version: 3.0-10
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb,indigo
+Provides: indigo
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libavahi-compat-libdnssd1
+Conflicts: indigo
+Filename: pool/main/i/indigo3/indigo3-3.0-10-armhf.deb
+Size: 59153496
+MD5sum: 45de43a0bd358680ac7342e020bf795e
+SHA1: a6e919d990efb841f4386b7da5446c49f7b9c2d7
+SHA256: 03eb1560518ac7631fa3088477af18c6c30e85f79986285545e0cf207e2e7edb
+SHA512: 73e956511fb53d656eb8907230a49be93d50ebd4455bfe0daba5530bc7d2e6f7cf5174ccd1a67c48b9648ddd54c2cd9872761f6a10703939ff94932f50229540
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
 
 Package: indigo3
 Priority: optional
