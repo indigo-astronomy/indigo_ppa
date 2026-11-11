@@ -533,6 +533,26 @@ Homepage: https://www.indigo-astronomy.org
 Package: ain-imager-indigo3
 Priority: optional
 Section: science
+Installed-Size: 42690
+Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
+Architecture: i386
+Version: 3.2-0
+Replaces: ain-imager
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 7), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 11), zlib1g (>= 1:1.2.2), qt5-image-formats-plugins, indigo3
+Conflicts: ain-imager
+Filename: pool/main/a/ain-imager-indigo3/ain-imager-indigo3_3.2-0_i386.deb
+Size: 12153104
+MD5sum: d82ec862fc04268c92b29eb4f1974d5a
+SHA1: 68916a518cd4c2b1f7948dc706035d7699ae2414
+SHA256: 3eb41cf5347ba630690b5efbc1ee6c63be321df27f4c843526f42932e56bb94f
+SHA512: 1101c2cbe5ab06a4f7b73de3354a153f846ddf04a6f4c8af4767c5376ae3136e81caac9824afbc3a604f9733e8f8e85c2f2d00468f7fe3b381c68b6115376f2e
+Description: Ain INDIGO Imager
+ Ain INDIGO Imager is a program for astrophotography based on indigo framework.
+Homepage: https://www.indigo-astronomy.org
+
+Package: ain-imager-indigo3
+Priority: optional
+Section: science
 Installed-Size: 23867
 Maintainer: Rumen Bogdanovski <rumenastro@gmail.com>
 Architecture: i386
@@ -1140,6 +1160,26 @@ Description: Indigo deadlock detector
 
 Package: indigo3
 Priority: optional
+Installed-Size: 2360592
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: i386
+Version: 3.0-11
+Replaces: fxload,libsbigudrv2,libsbig,libqhy,indi-dsi,indigo-upb,indigo,indigo3-solver
+Provides: indigo, indigo3-solver (= 3.0-11)
+Depends: indigo-astrometry | astrometry.net, curl, libusb-1.0-0, libgudev-1.0-0, libavahi-compat-libdnssd1
+Conflicts: indigo
+Filename: pool/main/i/indigo3/indigo3-3.0-11-i386.deb
+Size: 64056644
+MD5sum: e24f5c961ea4d8f867a592d73c8ff9b2
+SHA1: 6e3b85ef99f1527e04fd887b3dd81c63d5acd320
+SHA256: f6dd8b34fce08ef5099cedf89a8503740fa05da24a738b0ab69feb6996594c6c
+SHA512: 0e8246c2511a5df3911b9c4928a9e894ea09cbd8f3883418e0bc5aaebc755e1c76c3854a4ab6f84b44b14225bd09484812d0739c46a76f370c4e9c1e0ca98bf2
+Description: INDIGO Framework and drivers
+ INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo3
+Priority: optional
 Installed-Size: 2345892
 Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
 Architecture: i386
@@ -1316,6 +1356,23 @@ SHA256: 8a49fe145fc19f03cd7637ddfa5273d27368d56d5fb8be9de9e0087525dc6d57
 SHA512: a83289109c73d868314a4f5ee3910dad8776bedb71f6efbcf4fa57ca01b1030e962c6f1ba680d060ea3f7accd63b13b11a685e5690fff382d501fd54068d6ef5
 Description: INDIGO Framework and drivers
  INDIGO is a system of standards and frameworks for multiplatform and distributed astronomy software development designed to scale with your needs.
+Homepage: http://www.indigo-astronomy.org
+
+Package: indigo3-solver
+Priority: optional
+Installed-Size: 5644
+Maintainer: CloudMakers, s. r. o. <indigo@cloudmakers.eu>
+Architecture: i386
+Version: 3.0-11
+Depends: libc6, libstdc++6, libgcc-s1, zlib1g
+Filename: pool/main/i/indigo3-solver/indigo3-solver-3.0-11-i386.deb
+Size: 1744232
+MD5sum: c590bb7a87b7249a34f06239a3f35fbb
+SHA1: d317b2e04ec50086836d3030ecb89cb252599fc0
+SHA256: 4ba298cb9b80c274d411f35c464a990f55505afc2b1a6a88f2dd29ac2c075ab1
+SHA512: 56308870b15b5e206d53c667889f413890a1614655ed48c5bcc30a76e2bed27f669fde7f2b54041ea65a73bdbc53100a48d43a821f740bbb114262f11cbb5208
+Description: INDIGO plate solver command line tool
+ Standalone command line version of the INDIGO plate solver, also included in the INDIGO framework package.
 Homepage: http://www.indigo-astronomy.org
 
 Package: indigosky-desktop
